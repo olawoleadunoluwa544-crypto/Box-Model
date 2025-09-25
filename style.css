@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 1rem 2rem;
+    color: crimson;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-link{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: crimson;
+}
+a:hover{
+    background-color:blue;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+}
+.Hair{
+    height: 500px;
+    background-image: url('Magazine.webp');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgb(234, 107, 132);
+}
